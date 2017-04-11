@@ -184,7 +184,7 @@ function AutoPXLS(images){
     var timer = (App.cooldown-(new Date).getTime())/1E3;
     if(0<timer){
      	console.log("timer: " + timer);
-      setTimeout(draw, 100000);
+      setTimeout(draw, 82500);
     }
     else{
       for(var i = 0; i < painters.length; i++){
